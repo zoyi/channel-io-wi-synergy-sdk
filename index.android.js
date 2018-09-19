@@ -26,6 +26,7 @@ module.exports = {
             sysProfile: {
               adId,
               '$wId': wId,
+              'platform': 'android'
             }
           },
           {
