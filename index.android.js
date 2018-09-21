@@ -17,14 +17,13 @@ module.exports = {
         return
       }
 
-      NativeModules.ChannelIOSynergy.getDeviceId((wId, adId) => {
+      NativeModules.ChannelIOSynergy.getDeviceId((wId) => {
         axios.post(
           `https://api.channel.io/app/plugins/${pluginKey}/boot/v2`,
           {
             userId,
             profile,
             sysProfile: {
-              adId,
               '$wId': wId,
               'platform': 'android'
             }
