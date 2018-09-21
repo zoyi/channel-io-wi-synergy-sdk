@@ -52,6 +52,8 @@ We do not recommend calling this function often.
 We recommend call `track` function when login succeed or application is start up
 
 ```javascript
+import ChannelIO from 'channel-io-wi-synergy-sdk'
+
 ChannelIO.track(
   pluginKey,
   userId,
