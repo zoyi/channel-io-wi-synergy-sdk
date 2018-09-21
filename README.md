@@ -10,6 +10,8 @@
 
 ## `npm install`
 
+## `react-native link`
+
 ## Add dependency to `android/settings.gradle`
 
 ```gradle
